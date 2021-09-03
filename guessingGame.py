@@ -28,16 +28,14 @@ while chances < 5:
         print("Congratulation YOU WON!!!")
         break
 
-    # Check if the user entered number is smaller than the generated number
-    elif guess < number:
-        print("Your guess was too low: Guess a number higher than", guess)
-
+    # Srujan: Please use elif and Check if the user entered number is smaller than the generated number
+   
     # The user entered number is greater than the generated number
     else:
         print("Your guess was too high: Guess a number lower than", guess)
 
-    # Increase the value of chance by 1
-    chances += 1
+    # Srujan: Increase the value of chance by 1
+    
 
 
 # Check whether the user guessed the correct number
